@@ -1,15 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Main Page</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>WEBPAGE IS STILL UNDER CONSTRUCTION</h1>
+<head>
+  <meta charset="UTF-8" />
+  <title>Michail Samaritakis | Conversational AI & Data Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Resume and portfolio of Michail Samaritakis, Computer Science undergraduate specializing in conversational & generative AI and data engineering." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- Main script -->
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="nav-shell">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">MS</div>
+        <div>
+          <div class="brand-txt-title">Michail Samaritakis</div>
+          <!-- <div class="brand-txt-sub">Conversational AI &amp; Data Engineering</div> -->
+        </div>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#recommendation">Recommendation</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="about">
+        <div class="hero-main">
+          <div class="eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            Available for job opportunities
+          </div>
+          <h1 class="hero-title">
+            Computer Science undergraduate focused on conversational &amp; generative AI.
+          </h1>
+          <p class="hero-subtitle">
+            I build data-driven, production-ready systems: VoiceAI features with Node.js and robust API integrations,
+            ETL pipelines and ML classification models, as well as LLM-powered RAG workflows. I enjoy turning complex
+            requirements into clear, tested, well-documented solutions.
+          </p>
+
+          <div class="hero-tags">
+            <span class="tag">Conversational AI</span>
+            <span class="tag">Generative AI &amp; RAG</span>
+            <span class="tag">Data Engineering &amp; ETL</span>
+            <span class="tag">VR UX Insights</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience">
+              <span class="icon">↳</span>
+              View experience
+            </a>
+            <a class="btn btn-ghost" href="assets/docs/CV_Michail_Samaritakis.pdf" target="_blank" rel="noopener">
+              <span class="icon">⬇</span>
+              Download CV (PDF)
+            </a>
+          </div>
+
+          <div class="hero-meta" aria-label="Snapshot">
+            <div class="hero-meta-item">
+              <span>🎓 Computer Science, University of Crete (2019–2025)</span>
             </div>
-    </body>
+            <div class="hero-meta-item">
+              <span class="hero-meta-dot" aria-hidden="true"></span>
+              <span>Erasmus, University of West Bohemia (2024)</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="hero-meta-dot" aria-hidden="true"></span>
+              <span>Heraklion, Crete · Remote friendly</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-side" aria-label="Quick facts">
+          <div class="card">
+            <div class="card-title-row">
+              <div class="card-title">Profile</div>
+              <span class="card-pill">Software &amp; Data</span>
+            </div>
+            <ul class="contact-list">
+              <li><strong>Name:</strong> Michail Samaritakis</li>
+              <li><strong>Location:</strong> Heraklion, Crete, Greece</li>
+              <li>
+                <strong>Email:</strong>
+                <a class="contact-link" href="mailto:mikesamaritakis@gmail.com">mikesamaritakis@gmail.com</a>
+              </li>
+              <li>
+                <strong>Phone:</strong>
+                <a class="contact-link" href="tel:+306906120834">+30 690 612 0834</a>
+              </li>
+            </ul>
+            <div class="badge-row" style="margin-top:0.6rem;">
+              <span class="badge">Node.js &amp; JavaScript</span>
+              <span class="badge">APIs &amp; automation</span>
+              <span class="badge">Machine learning</span>
+              <span class="badge">LLMs &amp; RAG</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title-row">
+              <div class="card-title">Links</div>
+              <span class="card-pill">Online</span>
+            </div>
+            <div class="links-inline" aria-label="Online profiles">
+              <a class="link-inline" href="https://mikesamaritakis.github.io" target="_blank" rel="noopener">
+                <span class="icon">🌐</span>
+                <span>Website</span>
+              </a>
+              <a class="link-inline" href="https://github.com/MikeSamaritakis" target="_blank" rel="noopener">
+                <span class="icon"></span>
+                <span>GitHub</span>
+              </a>
+              <a class="link-inline" href="https://linkedin.com/in/michail-samaritakis-0ab3a0228" target="_blank" rel="noopener">
+                <span class="icon">in</span>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title-row">
+              <div class="card-title">At a glance</div>
+              <span class="card-pill">Strengths</span>
+            </div>
+            <div class="rec-body">
+              I’m known for structured thinking, clear documentation, and hitting deadlines –
+              whether I’m integrating APIs, tuning ML models, or extracting insights from VR usability tests.
+            </div>
+            <div class="rec-highlight">
+              <span><span class="rec-check">✔</span> Strong ownership &amp; initiative</span>
+              <span><span class="rec-check">✔</span> Cross-functional collaboration</span>
+              <span><span class="rec-check">✔</span> Detail-oriented and quality-driven</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Experience & Education -->
+      <section id="experience">
+        <h2>
+          Experience
+          <span class="section-tag">Recent roles</span>
+        </h2>
+
+        <div class="two-col">
+          <div>
+            <div class="timeline" aria-label="Professional experience">
+              <!-- Omilia -->
+              <article class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-meta">03/2025 – 06/2025 · Remote</div>
+                <div class="timeline-title">Software Engineer – Conversational AI Developer</div>
+                <div class="timeline-sub">Omilia</div>
+                <ul class="timeline-points">
+                  <li>Built client-specific VoiceAI integrations using Omilia’s platform and Node.js.</li>
+                  <li>Integrated external client APIs into conversational flows and call logic.</li>
+                  <li>Performed manual testing with Postman, Zoiper5 and related tools.</li>
+                  <li>Developed automated tests in JavaScript to validate complex call scenarios.</li>
+                  <li>Wrote Bash scripts to automate CRUD operations and environment tasks.</li>
+                  <li>Produced clear developer-focused documentation for all delivered features.</li>
+                </ul>
+              </article>
+
+              <!-- Conveos -->
+              <article class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-meta">07/2024 – 09/2024 · Heraklion</div>
+                <div class="timeline-title">Software Development Intern</div>
+                <div class="timeline-sub">Conveos</div>
+                <ul class="timeline-points">
+                  <li>Developed a robust web scraper in Node.js for large-scale data extraction.</li>
+                  <li>Automated data processing and cleaning with Node.js scripts and ETL flows.</li>
+                  <li>Implemented an ML-based classification script to segment datasets.</li>
+                  <li>Applied LLMs to extend application capabilities and evaluated model behaviour.</li>
+                  <li>Integrated and tested datasets within a RAG system to ensure reliability.</li>
+                  <li>Worked effectively in a fast-paced environment with strong attention to detail.</li>
+                </ul>
+              </article>
+
+              <!-- Orama VR -->
+              <article class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-meta">06/2022 – 09/2023 · Heraklion</div>
+                <div class="timeline-title">UI/UX Tester (Volunteer)</div>
+                <div class="timeline-sub">Orama VR</div>
+                <ul class="timeline-points">
+                  <li>Provided structured UI/UX feedback based on VR usability tests.</li>
+                  <li>Collaborated with cross-functional teams to refine interaction patterns.</li>
+                  <li>Analyzed user behaviour to identify usability issues and improvement areas.</li>
+                  <li>Managed time across multiple projects and deadlines.</li>
+                  <li>Developed strong written and verbal communication through feedback reports.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <aside aria-label="Education & focus areas">
+            <div class="card">
+              <div class="card-title-row">
+                <div class="card-title">Education</div>
+                <span class="card-pill">Academic</span>
+              </div>
+              <div class="skills-groups">
+                <div>
+                  <div class="skills-group-title">BSc · Computer Science</div>
+                  <div style="font-size:0.82rem; margin-bottom:0.15rem;">
+                    University of Crete · Computer Science Department
+                  </div>
+                  <div style="font-size:0.78rem; color:var(--text-soft);">
+                    2019 – 2025 · Focus on software engineering, data engineering and AI.
+                  </div>
+                </div>
+                <div>
+                  <div class="skills-group-title">Erasmus Exchange</div>
+                  <div style="font-size:0.82rem; margin-bottom:0.15rem;">
+                    University of West Bohemia · Faculty of Applied Sciences
+                  </div>
+                  <div style="font-size:0.78rem; color:var(--text-soft);">
+                    February – June 2024 · Exposure to an international academic environment and applied computing.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="margin-top:0.9rem;">
+              <div class="card-title-row">
+                <div class="card-title">What I like working on</div>
+                <span class="card-pill">Focus</span>
+              </div>
+              <div class="chip-grid">
+                <span class="chip"><span class="chip-dot" aria-hidden="true"></span> VoiceAI backends</span>
+                <span class="chip"><span class="chip-dot" aria-hidden="true"></span> RAG-enabled applications</span>
+                <span class="chip"><span class="chip-dot" aria-hidden="true"></span> Data scraping &amp; ETL</span>
+                <span class="chip"><span class="chip-dot" aria-hidden="true"></span> ML classification pipelines</span>
+                <span class="chip"><span class="chip-dot" aria-hidden="true"></span> VR-driven UX research</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2>
+          Skills
+          <span class="section-tag">Tech &amp; collaboration</span>
+        </h2>
+
+        <div class="two-col">
+          <div>
+            <div class="skills-groups">
+              <div>
+                <div class="skills-group-title">Engineering</div>
+                <div class="skills-group-chips">
+                  <span class="skills-chip">JavaScript &amp; Node.js</span>
+                  <span class="skills-chip">API integrations</span>
+                  <span class="skills-chip">Automation scripts</span>
+                  <span class="skills-chip">Testing (Postman, Zoiper5)</span>
+                  <span class="skills-chip">Bash scripting</span>
+                  <span class="skills-chip">CRUD &amp; environment automation</span>
+                </div>
+              </div>
+              <div>
+                <div class="skills-group-title">Data &amp; AI</div>
+                <div class="skills-group-chips">
+                  <span class="skills-chip">ETL data pipelines</span>
+                  <span class="skills-chip">Web scraping &amp; data prep</span>
+                  <span class="skills-chip">ML classification</span>
+                  <span class="skills-chip">LLM &amp; RAG integration</span>
+                  <span class="skills-chip">RAG validation &amp; QA</span>
+                </div>
+              </div>
+              <div>
+                <div class="skills-group-title">UX &amp; communication</div>
+                <div class="skills-group-chips">
+                  <span class="skills-chip">VR UI/UX testing</span>
+                  <span class="skills-chip">Usability insights</span>
+                  <span class="skills-chip">Technical documentation</span>
+                  <span class="skills-chip">Cross-functional collaboration</span>
+                  <span class="skills-chip">Time management</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside>
+            <div class="card">
+              <div class="card-title-row">
+                <div class="card-title">Technologies &amp; tools</div>
+                <span class="card-pill">Snapshot</span>
+              </div>
+              <div class="chip-grid">
+                <span class="chip"><span class="chip-dot"></span> Node.js</span>
+                <span class="chip"><span class="chip-dot"></span> JavaScript</span>
+                <span class="chip"><span class="chip-dot"></span> MongoDB</span>
+                <span class="chip"><span class="chip-dot"></span> Postman</span>
+                <span class="chip"><span class="chip-dot"></span> Zoiper5</span>
+                <span class="chip"><span class="chip-dot"></span> Bash</span>
+                <span class="chip"><span class="chip-dot"></span> ML frameworks</span>
+                <span class="chip"><span class="chip-dot"></span> LLM platforms</span>
+              </div>
+              <p style="margin-top:0.75rem; font-size:0.8rem; color:var(--text-soft);">
+                Comfortable moving between proof-of-concept and production-ready code, always with a focus on
+                observability, testability and maintainability.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Recommendation -->
+      <section id="recommendation">
+        <h2>
+          Recommendation
+          <span class="section-tag">From Conveos</span>
+        </h2>
+
+        <div class="testimonial-grid">
+          <div class="card">
+            <div class="card-title-row">
+              <div class="card-title">From my internship at Conveos</div>
+              <span class="card-pill">Reference</span>
+            </div>
+            <p class="testimonial-quote">
+              During my time as a Software Developer Intern at Conveos I worked on web scraping, data processing,
+              and ML-driven data segregation. I managed MongoDB datasets, integrated a RAG workflow with LLMs and
+              contributed a custom chatbot widget for web integration. My CTO highlights my
+              <mark>technical expertise, adaptability, and commitment to quality</mark> as key strengths and
+              recommends me for software development and data-centric roles.
+            </p>
+
+            <div>
+              <div style="font-size:0.8rem; color:var(--text-soft); margin-bottom:0.35rem;">Highlighted contributions:</div>
+              <div class="pill-list">
+                <span class="pill">Node.js web scraper &amp; ETL pipeline</span>
+                <span class="pill">MongoDB data quality &amp; checks</span>
+                <span class="pill">ML-based data segregation</span>
+                <span class="pill">LLM-enabled RAG evaluation</span>
+                <span class="pill">Custom chatbot widget</span>
+                <span class="pill">Comprehensive technical documentation</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="card">
+            <div class="card-title-row">
+              <div class="card-title">Referee</div>
+              <span class="card-pill">Conveos</span>
+            </div>
+            <div class="author-block">
+              <div class="author-name">Marco Ottolini</div>
+              <div>CTO, Conveos</div>
+              <div class="geo">Heraklion, Greece</div>
+              <p style="margin:0.6rem 0 0.3rem;">
+                Full recommendation letter available upon request or in my application materials.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>
+          Contact
+          <span class="section-tag">Let’s talk</span>
+        </h2>
+        <div class="two-col">
+          <div>
+            <div class="card">
+              <div class="card-title-row">
+                <div class="card-title">Get in touch</div>
+                <span class="card-pill">Open to opportunities</span>
+              </div>
+              <p class="contact-card-body">
+                I’m interested in roles around conversational AI, data engineering, and AI-driven products where I can
+                work closely with both technical and non-technical stakeholders. If you’d like to discuss an opportunity
+                or a project, feel free to reach out.
+              </p>
+              <ul class="contact-list">
+                <li>
+                  <strong>Email:</strong>
+                  <a class="contact-link" href="mailto:mikesamaritakis@gmail.com">mikesamaritakis@gmail.com</a>
+                </li>
+                <li>
+                  <strong>Phone:</strong>
+                  <a class="contact-link" href="tel:+306906120834">+30 690 612 0834</a>
+                </li>
+                <li><strong>Location:</strong> Heraklion, Crete, Greece · CET/EET time zone</li>
+              </ul>
+            </div>
+          </div>
+
+          <aside>
+            <div class="card">
+              <div class="card-title-row">
+                <div class="card-title">Prefered channels</div>
+                <span class="card-pill">Response</span>
+              </div>
+              <div class="links-inline">
+                <a class="link-inline" href="mailto:mikesamaritakis@gmail.com">
+                  <span class="icon">✉</span>
+                  <span>Email</span>
+                </a>
+                <a class="link-inline" href="https://linkedin.com/in/michail-samaritakis-0ab3a0228" target="_blank" rel="noopener">
+                  <span class="icon">in</span>
+                  <span>Message on LinkedIn</span>
+                </a>
+                <a class="link-inline" href="https://github.com/MikeSamaritakis" target="_blank" rel="noopener">
+                  <span class="icon"></span>
+                  <span>GitHub profile</span>
+                </a>
+              </div>
+              <p style="margin-top:0.6rem; font-size:0.78rem; color:var(--text-soft);">
+                I’m happy to share more project details, code samples, or talk about how I approach problem-solving and collaboration.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Michail Samaritakis. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#about">Top</a>
+        <a href="assets/docs/CV_Michail_Samaritakis.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        <a href="https://mikesamaritakis.github.io" target="_blank" rel="noopener">mikesamaritakis.github.io</a>
+        <a href="about.html">More about me</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

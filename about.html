@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Main Page</title>
-    </head>
-    <body>
-        <div class="container">
-            <h1>About Me Page</h1>
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Michail Samaritakis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="More about Michail Samaritakis – background, motivation, and how he works across conversational AI, data engineering, and applied machine learning."
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Shared styles & script -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="nav-shell">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">MS</div>
+        <div>
+          <div class="brand-txt-title">Michail Samaritakis</div>
         </div>
-    </body>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html#about">Home</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#recommendation">Recommendation</a></li>
+          <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <main>
+      <section id="about-page">
+        <h2>
+          About me
+          <span class="section-tag">Personal</span>
+        </h2>
+
+        <div class="two-col">
+          <div>
+            <p style="font-size:0.9rem; color:var(--text-soft); line-height:1.7;">
+              I’m Michail, a Computer Science undergraduate at the University of Crete who enjoys building things at the
+              intersection of <strong>conversational AI</strong>, <strong>data engineering</strong>, and
+              <strong>applied machine learning</strong>. I like taking messy requirements, APIs, and datasets and
+              turning them into something reliable: a VoiceAI call flow that actually works in production, a scraper
+              plus ETL pipeline that keeps data clean, or an ML/RAG workflow that produces useful answers instead of noise.
+            </p>
+
+            <p style="font-size:0.9rem; color:var(--text-soft); line-height:1.7;">
+              My path so far has been quite hands-on. At <strong>Orama VR</strong> I volunteered as a UI/UX tester,
+              running VR usability sessions and learning how small interaction details can completely change a user’s
+              experience. At <strong>Conveos</strong> I moved closer to the data side: building a Node.js scraper,
+              automating data cleaning and processing, applying ML for classification, and integrating datasets into a
+              RAG system backed by LLMs. More recently at <strong>Omilia</strong> I focused on conversational AI in
+              production environments – implementing client-specific VoiceAI logic, integrating external APIs into
+              call flows, testing with tools like Postman and Zoiper5, and documenting features for other engineers.
+            </p>
+
+            <p style="font-size:0.9rem; color:var(--text-soft); line-height:1.7;">
+              Academically, my BSc in Computer Science and an Erasmus semester at the University of West Bohemia have
+              given me a solid foundation in software engineering and algorithms, but I tend to learn the most when I
+              have a concrete problem to solve. My default approach is to start small, prototype quickly, write down
+              decisions and edge cases, and then harden things with tests and documentation so they’re easy for others
+              to understand and extend.
+            </p>
+
+            <h3 style="font-size:0.95rem; margin-top:1.8rem; margin-bottom:0.4rem;">
+              Outside of work
+            </h3>
+            <p style="font-size:0.9rem; color:var(--text-soft); line-height:1.7;">
+              Outside “official” projects, I like experimenting with new tools and workflows – small scripts to
+              automate repetitive tasks, quick prototypes that explore a new API or model, or testing VR experiences
+              and thinking about interaction patterns. I enjoy environments where people are curious, direct in their
+              feedback, and open to sharing how they think about problems, because that’s where I learn the fastest.
+            </p>
+          </div>
+
+          <aside>
+            <div class="card">
+              <div class="card-title-row">
+                <div class="card-title">How I like to work</div>
+                <span class="card-pill">Day to day</span>
+              </div>
+              <ul class="timeline-points">
+                <li>I prefer small, incremental changes with clear scope over big “mystery” projects.</li>
+                <li>I write things down – assumptions, edge cases, API behaviour, and test scenarios.</li>
+                <li>I’m comfortable asking questions early to avoid rework later.</li>
+                <li>I like pairing with more experienced engineers to pick up patterns and best practices.</li>
+                <li>I care about handing over work that others can understand, maintain, and build on.</li>
+              </ul>
+            </div>
+
+            <div class="card" style="margin-top:0.9rem;">
+              <div class="card-title-row">
+                <div class="card-title">What I’m looking for</div>
+                <span class="card-pill">Next step</span>
+              </div>
+              <p style="font-size:0.82rem; color:var(--text-soft); line-height:1.6;">
+                I’m interested in roles where I can keep working close to the data and the product:
+                building or extending <strong>VoiceAI backends</strong>, <strong>LLM/RAG-enabled applications</strong>,
+                or <strong>data-heavy services</strong> that need solid engineering and clear thinking.
+                I enjoy collaborating with both technical and non-technical stakeholders and I’m comfortable working
+                in remote-friendly teams.
+              </p>
+              <div class="pill-list">
+                <span class="pill">Junior software engineer</span>
+                <span class="pill">Data / ML-focused roles</span>
+                <span class="pill">Remote or hybrid in EU/ Open for relocation outside EU as well</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Michail Samaritakis. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="index.html#about">Top</a>
+        <a href="assets/docs/CV_Michail_Samaritakis.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        <a href="https://mikesamaritakis.github.io" target="_blank" rel="noopener">mikesamaritakis.github.io</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
